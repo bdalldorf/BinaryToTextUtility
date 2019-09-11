@@ -1,3 +1,3 @@
 # Binary To Text Utility
 
-A Simple library for converting Text to Binary and Binary to Text
+A simple library for converting text to binary and binary to text

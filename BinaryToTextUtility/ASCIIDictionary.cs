@@ -6,7 +6,7 @@ namespace BinaryToTextUtility
 {
     public static class ASCIIMethods
     {
-        public static readonly Dictionary<char, string> ASCIILetterToBinaryDictionary = new Dictionary<char, string>
+       public static readonly Dictionary<char, string> ASCIILetterToBinaryDictionary = new Dictionary<char, string>
        {
             { ' ', "00100000" },
             { '!', "00100001" },
@@ -117,6 +117,18 @@ namespace BinaryToTextUtility
             foreach (char ASCIILetter in value)
             {
                 stringBuilder.Append(stringBuilder.Length != 0 ? $" {GetASCIIBinaryStringFromChar(ASCIILetter)}" : GetASCIIBinaryStringFromChar(ASCIILetter));
+            }
+
+            return stringBuilder.ToString();
+        }
+
+        public static string GetASCIIBinaryFromString(string value)
+        {
+            StringBuilder stringBuilder = new StringBuilder();
+
+            foreach (char ASCIILetter in value)
+            {
+                stringBuilder.Append(GetASCIIBinaryStringFromChar(ASCIILetter));
             }
 
             return stringBuilder.ToString();

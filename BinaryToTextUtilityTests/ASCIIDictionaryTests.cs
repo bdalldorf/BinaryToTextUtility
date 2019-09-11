@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Tests
 {
-    public class ASCIIDictionaryTests
+    public class ASCIIDictionaryTextToBinaryTests
     {
         [SetUp]
         public void Setup()

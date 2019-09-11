@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryToTextUtility", "BinaryToTextUtility\BinaryToTextUtility.csproj", "{8BE3CEA0-CF2E-47F1-B076-000750C9E91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryToTextUtilityTests", "BinaryToTextUtilityTests\BinaryToTextUtilityTests.csproj", "{B144B745-43E1-41CC-B140-594D6D302A74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE3CEA0-CF2E-47F1-B076-000750C9E91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE3CEA0-CF2E-47F1-B076-000750C9E91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE3CEA0-CF2E-47F1-B076-000750C9E91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE3CEA0-CF2E-47F1-B076-000750C9E91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B144B745-43E1-41CC-B140-594D6D302A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B144B745-43E1-41CC-B140-594D6D302A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B144B745-43E1-41CC-B140-594D6D302A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B144B745-43E1-41CC-B140-594D6D302A74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1797BC97-99FD-41DC-99F2-97B7740917BD}
+	EndGlobalSection
+EndGlobal
